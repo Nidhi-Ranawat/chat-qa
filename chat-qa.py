@@ -25,7 +25,6 @@ from pinecone import Pinecone
 import json
 load_dotenv()
 PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
-# os.environ["PINECONE_API_KEY"] = "c84f52eb-2910-4439-9afe-27aca87e147c"
 
 embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
